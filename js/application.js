@@ -46,10 +46,8 @@ function remove() {
     removebtn.forEach((element) => element.addEventListener('click', () => {
       const parentNodeClass = element.parentNode.className;
       element.parentNode.remove();
-      alert(parentNodeClass);
       list = list.filter((x) => x.author !== parentNodeClass);
       localStorage.setItem('books', JSON.stringify(list));
-      alert('book', list);
     }));
   }
 }
