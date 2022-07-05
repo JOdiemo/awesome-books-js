@@ -1,12 +1,9 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
-
 class ListOfBooks {
   constructor() {
     this.books = (localStorage.myBooks != null) ? JSON.parse(localStorage.myBooks) : [];
   }
 
-  newBook() {
+  addBook() {
     const title = document.getElementById('title');
     const author = document.getElementById('author');
     if (title.value === '' || author.value === '') {
@@ -24,7 +21,7 @@ class ListOfBooks {
     if (this.books.length === 0) { listTitle.innerHTML = 'Books List is empty'; }
   }
 
-  showBooks() {
+  listBooks() {
     const books = document.getElementById('books');
     books.innerHTML = '';
     let id = 0;
@@ -43,13 +40,13 @@ class ListOfBooks {
 
   updateLocalStorage() {
     localStorage.myBooks = JSON.stringify(this.books);
-    this.showBooks();
+    this.listBooks();
   }
 }
 
 const myBooks = new ListOfBooks();
 
-myBooks.showBooks();
+myBooks.listBooks();
 
 const listTitle = document.querySelector('.list-title');
 
