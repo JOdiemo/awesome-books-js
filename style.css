@@ -1,3 +1,50 @@
-* {
-  font-family: sans-serif;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+form > input {
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+tr {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  position: relative;
+}
+
+#books-list  {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.books-container {
+  border: 2px solid black;
+  width: 50vw;
+  opacity: 0.8;
+}
+
+.btn {
+  border: 1px solid black;
+}
+
+.btn:hover {
+  border: 2px solid #2e2e2e;
+}
+
+
+
+
