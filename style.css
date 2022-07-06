@@ -1,13 +1,41 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 * {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 10px;
+  border: 2px solid #2e2e2e;
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.date p {
+  display: flex;
+  align-content: flex-end;
+  padding-left: 67%;
+  padding-top: 10px;
+}
+
+.nav-item:nth-child(2),
+.nav-item:nth-child(3) {
+  border-left: 2px solid black;
+}
+
+.linkmenu {
+  padding-right: 30px;
 }
 
 form > input {
@@ -23,7 +51,7 @@ tr {
   position: relative;
   z-index: 1;
   width: 100%;
-  min-height: 80vh;
+  height: 77vh;
 }
 
 .books-container {
@@ -38,4 +66,32 @@ tr {
 
 .btn:hover {
   border: 2px solid #2e2e2e;
+}
+
+#add-book-container {
+  height: 77vh;
+}
+
+.contact-list {
+  padding-left: 35%;
+}
+
+.contact-info {
+  height: 77vh;
+}
+
+.contact-info p {
+  padding-left: 30%;
+}
+
+.end-page {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightslategray;
+}
+
+.end-page p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
 }
