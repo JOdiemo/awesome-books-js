@@ -9,7 +9,6 @@ link[0].addEventListener('click', () => {
   contact.classList.add('d-none');
 });
 
-
 link[1].addEventListener('click', () => {
   list.classList.add('d-none');
   add.classList.remove('d-none');
