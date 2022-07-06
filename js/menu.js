@@ -9,6 +9,7 @@ link[0].addEventListener('click', () => {
   contact.classList.add('d-none');
 });
 
+
 link[1].addEventListener('click', () => {
   list.classList.add('d-none');
   add.classList.remove('d-none');
@@ -21,5 +22,5 @@ link[2].addEventListener('click', () => {
   contact.classList.remove('d-none');
 });
 
-const d = new Date();
-document.getElementById('render-date').innerHTML = d;
+const p = new Date();
+document.getElementById('render-date').innerHTML = p;
