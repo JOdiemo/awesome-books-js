@@ -10,10 +10,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Aweasome Books</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="m-0">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="nav-brand">
+            <p>Awesome Books</p>
+        </div>
+        <div class="align-items-right d-flex">
+            <ul class="navbar-nav linkmenu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Add New</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="date">
+        <p id="render-date" class="fs-6 date position-absolute"></p>
+    </div>
      <section id="books-list" class="book-list col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto p-4">
         <h1 class="display-4 py-2 text-dark text-center">All Awesome books</h1>
         <div class="books-container container d-flex flex-column mb-5 mx-auto">
@@ -23,7 +43,7 @@
             </table>
         </div>
     </section>
-    <section id="add-book-container">
+    <section id="add-book-container" class="d-none">
         <div class="row text-light">
             <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto form p-4">
                 <h2 class="display-4 py-2 text-dark text-center">Add a new book</h2>
@@ -40,7 +60,21 @@
             </div>
         </div>
     </section>
-
+    <section class="contact-info  d-none" id="contact">
+        <br><br>
+        <h2 class="p-4 text-center">Contact Information</h2>
+        <br>
+        <p>Do have any questions or you just want to say "Hello"? <br> You can reach out to us</p><br>
+        <ul class="contact-list">
+            <li>Our email: mail@mail.com</li>
+            <li>Our phone number: 82274668891</li>
+            <li>Our address: Streetman 99, 44463 City, country</li>
+        </ul>
+    </section>
+    <footer class="end-page">
+        <p>Copyright...</p>
+    </footer>
+    <script src="./js/menu.js"></script>
    <script src="./js/class.js"></script>
 </body>
 </html>

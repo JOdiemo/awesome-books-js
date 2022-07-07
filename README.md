@@ -2,27 +2,28 @@
 
 # Project Name
 
-> Description the project.
-
+> Awesome books complete Website.
+This is a project that allows the user to input book title and Author which is then saved to a library list.
+It also contains contact details.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://github.com/JOdiemo/awesome-books-js/tree/awesome-books-complete)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+To get you started you can click on the link below.
+https://github.com/JOdiemo/awesome-books-js/tree/awesome-books-complete
+
+Clone the repository to your local machine.
+
 
 ### Prerequisites
 
@@ -42,15 +43,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@JOdiemo](https://github.com/JOdiemo)
+- Twitter: [@JorumOdiemo](https://twitter.com/home)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorumodiemo/)
 
-👤 **Author2**
+👤 **mark otuya**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Markotuya0](https://github.com/markotuya0)
+- Twitter: [@mark__anthonny](https://twitter.com/mark__anthonny)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya-6a09a5232/)
 
 ## 🤝 Contributing
 
