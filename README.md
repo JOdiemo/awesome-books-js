@@ -2,14 +2,13 @@
 
 # Project Name
 
-> Description the project.
-
+> Awesome-books-js.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
 ## Live Demo (if available)
 
@@ -46,11 +45,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
+👤 **mark otuya**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Markotuya0](https://github.com/markotuya0)
+- Twitter: [@mark__anthonny](https://twitter.com/mark__anthonny)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya-6a09a5232/)
 
 ## 🤝 Contributing
 
