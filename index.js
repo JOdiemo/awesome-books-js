@@ -1,7 +1,6 @@
 import Bookshelf, { isStorageAvailable } from './modules/app.js';
 import { DateTime } from './modules/luxon.js';
 
-// Links navigation
 const add = document.getElementById('add-book-container');
 const contact = document.getElementById('contact');
 const navList = document.querySelector('#list');
@@ -57,7 +56,7 @@ const newbook = new Bookshelf(books);
 form.onsubmit = () => {
   newbook.addBook(title, author);
   newbook.updateBookList();
-  list.classList.remove('hide');
+  allBooks.classList.remove('hide');
   add.classList.add('hide');
   contact.classList.add('hide');
   form.reset();
