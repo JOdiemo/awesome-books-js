@@ -1,7 +1,6 @@
 import Bookshelf, { isStorageAvailable } from './modules/app.js';
 import { DateTime } from './modules/luxon.js';
 
-
 // Links navigation
 const add = document.getElementById('add-book-container');
 const contact = document.getElementById('contact');

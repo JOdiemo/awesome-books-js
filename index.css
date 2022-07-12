@@ -94,6 +94,7 @@ tr {
 .book-list div:nth-child(odd) {
   background-color: grey;
 }
+
 #add-book-container {
   height: 77vh;
 }
