@@ -1,4 +1,5 @@
 // Form local storage availability checker function
+
 export function isStorageAvailable(type) {
   let storage;
   try {
@@ -10,12 +11,6 @@ export function isStorageAvailable(type) {
   } catch (e) {
     return (
       e instanceof DOMException
-      // 1) everything except Firefox
-      // 2) Firefox
-      // test name field too, because code might not be present
-      // 3) everything except Firefox
-      // 4) Firefox
-      // 5) acknowledge QuotaExceededError only if there's something already stored
       && (e.code === 22
         || e.code === 1014
         || e.name === 'QuotaExceededError'
