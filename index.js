@@ -52,7 +52,6 @@ if (isStorageAvailable('localStorage')) {
 
 const newbook = new Bookshelf(books);
 
-// On submit
 form.onsubmit = () => {
   newbook.addBook(title, author);
   newbook.updateBookList();
